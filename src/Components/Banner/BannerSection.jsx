@@ -1,6 +1,6 @@
-import playIcon from '../assets/play.png';
-import group5Img from '../assets/group-5 (1).png';
-import bannerImg from '../assets/banner.png'
+import playIcon from "../../assets/play.png";
+import group5Img from "../../assets/group-5 (1).png";
+import bannerImg from "../../assets/banner.png";
 
 
 const BannerSection = () => {
@@ -32,7 +32,7 @@ const BannerSection = () => {
                     </button>
                     
                  <div className="relative inline-block rounded-full p-[1px] bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
-               <button className="flex items-center gap-2 px-6 py-3 bg-white text-[#4F39F6] font-medium rounded-full hover:bg-slate-50 transition">
+               <button className="flex items-center gap-2 px-6 py-3 bg-white text-[#4F39F6] font-medium rounded-full hover:bg-purple-200   transition">
                  
                  <img 
                  src={playIcon}
