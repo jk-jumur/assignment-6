@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "Mo",
+    "tagType": "Best Seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "image": "https://i.ibb.co.com/j9W7c9cs/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "One-Time",
+    "tagType": "Popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "image": "https://i.ibb.co.com/XZFcyQjG/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "Mo",
+    "tagType": "New",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "image": "https://i.ibb.co.com/ymDmNyHc/Group.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "Mo",
+    "tagType": "Popular",
+    "features": [
+      "50+ automotions",
+      "API access",
+      "Custom workflows"
+    ],
+    "image": "https://i.ibb.co.com/20yYxQBs/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "One-Time",
+    "tagType": "New",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "image": "https://i.ibb.co.com/z036q9s/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "Mo",
+    "tagType": "Best Seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "image": "https://i.ibb.co.com/Wpf6G5q4/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "SEO Optimizer Suite",
+    "description": "Boost your website traffic with advanced keyword research and audit tools.",
+    "price": 34,
+    "period": "Mo",
+    "tagType": "Popular",
+    "features": [
+      "Keyword tracker",
+      "Competitor analysis",
+      "Weekly SEO audits"
+    ],
+    "image": "https://i.ibb.co.com/Wpf6G5q4/social-media.png"
+  },
+  {
+    "id": 8,
+    "name": "Video Editor Assets",
+    "description": "Professional transitions, sound effects, and title templates for creators.",
+    "price": 59,
+    "period": "One-Time",
+    "tagType": "New",
+    "features": [
+      "500+ premium effects",
+      "4K resolution files",
+      "Lifetime updates"
+    ],
+    "image": "https://i.ibb.co.com/ymDmNyHc/Group.png"
+  },
+  {
+    "id": 9,
+    "name": "UI/UX Component Library",
+    "description": "Ready-to-use HTML, Tailwind CSS, and React components to build sites 10x faster.",
+    "price": 89,
+    "period": "One-Time",
+    "tagType": "Best Seller",
+    "features": [
+      "120+ layout blocks",
+      "Fully responsive code",
+      "Figma file included"
+    ],
+    "image": "https://i.ibb.co.com/20yYxQBs/operation.png"
+  }
+]

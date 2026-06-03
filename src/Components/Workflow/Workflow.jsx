@@ -5,7 +5,7 @@ const Workflow = () => {
         <div className="bg-linear-to-r from-[#4F39F6] to-[#9514fa] p-16 ">
             <div className="max-w-5xl mx-auto  text-center space-y-5">
                 <h2 className="text-white text-5xl font-bold">Ready to Transform Your Workflow?</h2>
-                <p className="text-white">Join thousands of professionals who are already using Digitools to work smarter.<br/>Start your free trial today.</p>
+                <p className="text-white">Join thousands of professionals who are already using DigiTools to work smarter.<br/>Start your free trial today.</p>
                 <div className="flex gap-3 items-center justify-center">
                     <button className=" bg-white px-7 py-3 rounded-full font-medium hover:bg-opacity-90 transition cursor-pointer"><span className
                     ="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text  text-transparent">Explore Products</span></button>
