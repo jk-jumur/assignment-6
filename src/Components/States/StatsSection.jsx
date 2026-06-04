@@ -1,6 +1,6 @@
 const StateSection = () => {
       return(
-         <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-12">
+         <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-12 mt-20">
               <div className="grid grid-cols-1 md:grid-cols-3 max-w-5xl mx-auto items-center md:divide-x md:divide-white/20">
                  {/* Item 1 */}
                 <div className="text-center py-4 md:py-2">

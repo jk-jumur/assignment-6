@@ -1,8 +1,15 @@
+import { useState } from "react";
+import { Check } from "lucide-react";
 
 
-
-const PremiumDigitalCard = ({productCard}) => {
+const PremiumDigitalCard = ({productCard, carts, setCarts}) => {
       
+     const[isAddedToCart, setIsAddedToCart] = useState(false)
+
+     const handleByNow = () => {
+            setIsAddedToCart(true)
+            setCarts([...carts, productCard])
+     }
      const{name, description, price, period, tagType, features, popular, image} = productCard;
 
 
@@ -72,9 +79,26 @@ const PremiumDigitalCard = ({productCard}) => {
             </li>
           ))}
         </ul>
-    <div className="mt-6">
-      <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] btn-block rounded-full text-white">Buy Now</button>
-    </div>
+   <div className="mt-6">
+  <button 
+    onClick={handleByNow} 
+    className={`btn btn-block rounded-full text-white transition-colors duration-200 ${
+      isAddedToCart 
+        ? "bg-green-600 hover:bg-green-700 border-none" 
+        : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
+    }`}
+  >
+    {isAddedToCart ? (
+      <span className="flex items-center justify-center gap-2">
+        {/* Lucide Check Icon */}
+        <Check className="w-5 h-5 stroke-[3]" /> 
+        Added to Cart
+      </span>
+    ) : (
+      "Buy Now"
+    )}
+  </button>
+</div>
   </div>
 </div>
     )
