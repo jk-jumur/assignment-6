@@ -10,7 +10,7 @@ const PricingCard = ({ pricing }) => {
 
   return (
     <div
-      className={`card w-96 shadow-sm mb-25 border border-gray-200 ${
+      className={`card w-96 shadow-sm mb-25 border border-gray-200 ml-5 ${
         popular
           ? "bg-linear-to-b from-[#4F39F6] to-[#9514FA] text-white"
           : "bg-base-200"

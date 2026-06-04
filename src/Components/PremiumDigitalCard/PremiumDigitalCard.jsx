@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Check } from "lucide-react";
+import { toast } from "react-toastify";
+
 
 
 const PremiumDigitalCard = ({productCard, carts, setCarts}) => {
@@ -9,6 +11,8 @@ const PremiumDigitalCard = ({productCard, carts, setCarts}) => {
      const handleByNow = () => {
             setIsAddedToCart(true)
             setCarts([...carts, productCard])
+            toast.success(`${name} added to cart! 🛒`)
+            
      }
      const{name, description, price, period, tagType, features, popular, image} = productCard;
 

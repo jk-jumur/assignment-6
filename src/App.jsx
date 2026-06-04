@@ -14,6 +14,7 @@ import { Suspense, useState } from 'react';
 import PricingOptions from './Components/PricingOptions/PricingOptions'
 import Tab from './Components/Tab/Tab';
 import Cart from './Components/Cart/Cart';
+import { ToastContainer } from 'react-toastify';
 
 
 const productsPromise = fetch ('PremiumDigitalTools.json')
@@ -34,7 +35,7 @@ function App() {
   return (
     <>
      
-     <NavBar/>
+     <NavBar carts={carts}/>
      <BannerSection/>
        <Tab activeTab={activeTab} setActiveTab={setActiveTab} carts={carts}/>
      <Suspense fallback={<span className="loading loading-spinner text-success"></span>}>
@@ -54,6 +55,8 @@ function App() {
 
          <Workflow/>
      <Footer/>
+
+         <ToastContainer />
    
 
 

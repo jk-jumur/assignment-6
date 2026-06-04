@@ -16,7 +16,7 @@ const PricingOptions = ({ pricingPromise }) => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
          </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-6 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-6  mt-12">
           {pricingData.map((pricing) => (
             <PricingCard
               key={pricing.price}

@@ -10,7 +10,7 @@ const PremiumDigitalTools = ({productsPromise, carts, setCarts}) => {
         <div className="max-w-7xl mx-auto">
            
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ml-5">
 
                 {
                     productsData.map(productCard => <PremiumDigitalCard key={productCard.id} productCard={productCard} carts={carts} setCarts={setCarts}/>)
