@@ -1,10 +1,15 @@
 
-
+import { ShoppingCart } from 'lucide-react';
 const Cart = ({carts, setCarts}) => {
        const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
 
          const handlePayment = () => {
               setCarts([])
+         }
+
+         const handleDelete = (item) => {
+           const filterArray = carts.filter(c => c.id !== item.id)
+           setCarts(filterArray)
          }
  
       return(
@@ -12,7 +17,12 @@ const Cart = ({carts, setCarts}) => {
             <h2 className="text-[#101727] text-2xl font-bold">Your Cart</h2>
 
             {
-                carts.length === 0 ? <p>Cart is empty</p> :
+                carts.length === 0 ?<div className='flex flex-col justify-center items-center'>
+                    
+                        
+                  <ShoppingCart className='w-32 h-32 text-gray-200' />
+                    <p>Your cart is empty</p>
+                </div> :
                 <>
                     <div className="space-y-5">
             {
@@ -32,7 +42,8 @@ const Cart = ({carts, setCarts}) => {
                            
                            </div>
                            <div>
-                            <button className="text-[#FF3980] cursor-pointer">Remove</button>
+                            <button onClick={()=> handleDelete(item)}
+                            className="text-[#FF3980]  hover:text-pink-400  cursor-pointer">Remove</button>
                             </div>
                            
                        </div>)

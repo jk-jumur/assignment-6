@@ -36,7 +36,7 @@ function App() {
      
      <NavBar/>
      <BannerSection/>
-       <Tab activeTab={activeTab} setActiveTab={setActiveTab}/>
+       <Tab activeTab={activeTab} setActiveTab={setActiveTab} carts={carts}/>
      <Suspense fallback={<span className="loading loading-spinner text-success"></span>}>
         
          {activeTab === "products" &&<PremiumDigitalTools productsPromise={productsPromise} carts={carts} setCarts={setCarts}/>}
@@ -56,11 +56,7 @@ function App() {
      <Footer/>
    
 
-    
-    
-     
 
-   
     </>
   )
 }
